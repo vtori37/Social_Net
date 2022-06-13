@@ -1,0 +1,24 @@
+{
+  "name": "social_net",
+  "version": "1.0.0",
+  "description": "![alt text](./assets/Images/.png)\r This application creates an employee information and profile HTML webpage.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtori37/Social_Net.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtori37/Social_Net/issues"
+  },
+  "homepage": "https://github.com/vtori37/Social_Net#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
+  }
+}
