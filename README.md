@@ -4,28 +4,22 @@
 This application  
 
 ## Table of Contents 
-* [Website](#Website)
+* [Test](#Test)
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Test](#Test)
 * [Technology](#technology)
 * [License](license)
 * [Questions](#Questions)
 
-
-## Website
-Here is a link to the live website:
-[Team Profile Generator](https://github.com/vtori37/     )
-
+## Test
+Please click this link to view a demonstration of this application:
+[Demo]()
 ## Installation 
 To access the application
 
 ## Usage
 This project can be used to 
 
-
-## Test
-Here is a demonstration of the application.
 ## Technology
 * HTML5
 * CSS 
