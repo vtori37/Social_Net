@@ -1,14 +1,13 @@
 # Social_Net
 ## Description 
 ![alt text](./assets/Images/.png)
-This application creates an employee information and profile HTML webpage. 
+This application  
 
 ## Table of Contents 
 * [Website](#Website)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Test](#Test)
-* [Contributors](#contributors)
 * [Technology](#technology)
 * [License](license)
 * [Questions](#Questions)
@@ -22,7 +21,8 @@ Here is a link to the live website:
 To access the application
 
 ## Usage
-This project can be used to create company profile pages.
+This project can be used to 
+
 
 ## Test
 Here is a demonstration of the application.
