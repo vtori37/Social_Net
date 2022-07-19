@@ -2,7 +2,7 @@ const { User } = require('../models');
 
 const userController = {
    // get all Users
-   getAllUser(req, res) {
+   getAllUsers(req, res) {
     User.find({})
       .populate({
         path: 'thoughts',
@@ -13,7 +13,7 @@ const userController = {
       .then(dbUserData => res.json(dbUserData))
       .catch(err => {
         console.log(err);
-        res.status(400).json(err);
+        res.status(400);
       });
   },
 
@@ -25,7 +25,13 @@ getUserById({ params }, res) {
       select: '-__v'
     })
     .select('-__v')
-    .then(dbUserData => res.json(dbUserData))
+    .then(dbUserData => {
+      if (!dbUserData){ 
+        res.status(404).json({ message: 'Cannot find user with this id!' });
+          return;
+      }
+      res.json(dbUserData);
+      })
     .catch(err => {
       console.log(err);
       res.status(400).json(err);
@@ -89,7 +95,13 @@ getUserById({ params }, res) {
       { $pull: { friends: params.friendId } },
       { new: true }
     )
-      .then(dbUserData => res.json(dbUserData))
+      .then(dbUserData => {
+        if (!dbUserData) {
+          res.status(404).json({ message: 'No user found with this id!' });
+          return;
+        }
+        res.json(dbUserData);
+      })
       .catch(err => res.json(err));
   }
 };
