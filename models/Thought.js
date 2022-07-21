@@ -35,7 +35,7 @@ const ThoughtSchema = new Schema({
   thoughtText: {
     type: String,
     required: true,
-    match: '/^.{0,20}$/'
+    match: [/^.{0,280}$/]
   },
     createdAt: {
       type: Date,
