@@ -13,7 +13,8 @@ This application can be used as an API for a social newtork application, using E
 
 ## Test
 Please click this link to view a demonstration of this application:
-[Demo]()
+[Video Demonstration](https://youtu.be/Wrz1RmzllgE)
+
 ## Installation 
 To access the application, follow these instructions. 1. Clone this repository. 2. After cloning this repository, open the command line and run the code 'npm install'. You will also want to make sure that you have express.js and mongoose installed. 4. Once the installation is complete, type "npm start". You can then test the application using Insomnia. 
 
