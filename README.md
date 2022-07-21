@@ -1,12 +1,11 @@
 # Social_Net
 ## Description 
-![alt text](/Screenshot.png)
 This application can be used as an API for a social newtork application, using Express.js, MongoDB, and Mongoose. 
+<img src='/Screenshot.png' width='550'>
 
 ## Table of Contents 
-* [Test](#Test)
-* [Installation](#Installation)
-* [Usage](#Usage)
+* [Test](#test)
+* [Installation](#installation)
 * [Technology](#technology)
 * [License](license)
 * [Questions](#Questions)
